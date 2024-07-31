@@ -85,3 +85,110 @@ print(sentence. upper())
 print(sentence. lower())
 print(sentence.swapcase())
 print(sentence) 
+
+text = 'ClaRusway'
+print(text.upper())
+print(text.lower())
+print(text.swapcase())
+print(text)
+
+print(text.replace('W', '***'))
+print(text.replace('W', '***').lower())
+print(text.replace('W', '**').lower().upper())
+
+
+sentence = "I live and work in Virginia"
+title_sentence = sentence.title()
+print(title_sentence)
+changed_sentence = sentence.replace("i",'+')
+print(changed_sentence)
+print(sentence) 
+
+text = 'the better the family, the better the society'
+text = text.title()
+print (text)
+
+sentence = "I live and work in Virginia"
+swap_case = sentence.swapcase()
+print(swap_case)
+print(swap_case.capitalize()) 
+
+text = 'S0d0me and G0m0re'
+print(text. replace('0', 'o'))
+
+isim = '    Ali    '
+print(isim.strip())
+meslek ='\n codder \t'
+print(meslek.strip())
+print(meslek.rstrip())
+
+space_string = " listen first"
+print(space_string.strip ( )) 
+
+source_string = "interoperability"
+print(source_string.strip("yi"))
+
+text='abcdabcd'
+print(text.strip('a'))
+print(text.strip('ab'))
+print(text.strip('ba'))
+print(text.strip('bad'))
+
+print(text.strip('badc'))
+print(text)
+print(text.strip('c'))
+
+print(None or 1)
+
+a = " "
+b = "False"
+c = True
+d = ""
+print(a or b or c and not d)
+
+print("None or True and 1")
+
+A = True
+B = False
+logic = (A or B) and (not A)
+print(logic)
+
+source_string = "interoperabilitv"
+print(source_string.lstrip("in"))
+
+space_string="      listen first       "
+print(space_string.rstrip())
+
+source_string = "interoperability"
+print(source_string.strip("yi"))
+
+source_string = "interoperability"
+print(source_string.rstrip("yt"))
+
+source_string = "interoperability"
+print(source_string.rstrip("yt"))
+
+source_string = "interoperability"
+print(source_string.rstrip("ty"))
+
+text = 'tyou can learn almost everything in pre-classz'
+print(text.strip('tz'))
+
+print(text.strip('tz'). upper())
+print(text.rstrip('z'))
+print(text.rstrip('z').lstrip('t'))
+print(text.rstrip('z').lstrip('t'). upper())
+print(text.rstrip('z').lstrip('t').upper())
+
+text = text.rstrip('z').lstrip('t').upper()
+print (text)
+
+
+text = 'In God wee Trust'
+print(text. replace( 'wee', 'we'))
+
+text = 'In God wee Trust'
+print(text.replace("ee", "e"))
+text1 = text[:9]
+text2 = text[10:]
+print(text1 + text2)
